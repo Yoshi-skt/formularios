@@ -12,7 +12,10 @@
 </head>
 <body>
     <h1>Meu primeiro fomulário</h1>
-    <form action="cadastro.php" autocomplete="off">
+    <!--method= post - serve para esconder o nome da barra de busca
+    mais ainda da para capiturar o nome no deftools
+    method get serve para entradas simples que vão até 3 mil caracteres(3 bytes)-->
+    <form action="cadastro.php" method="post" autocomplete="off">
         <p>
             <label for="inome">Nome:</label>
              <input type="text" name="nome" id="inome">
